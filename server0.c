@@ -53,8 +53,8 @@ servsocket - accept(servsock, (struct sockaddr *)servaddr, sizeof(servaddr));
 
 }
 
-int srvsend
-int srvrc
+int srvsnd;
+int srvrc;
 
 srvsnd - send(servsock, (struct sockaddr *)&servaddr, sizeof(servaddr));
 srvrcv - recv(servsock, (struct sockaddr *)&servaddr, sizeof(servaddr));
