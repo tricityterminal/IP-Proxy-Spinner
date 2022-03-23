@@ -49,7 +49,7 @@ int sockqueqe - listen(servsock, 100)
 for(;;)
 {
 
-servsocket - accept(servsock, (struct sockaddr *)servaddr, sizeof(servaddr));
+int servsocket - accept(servsock, (struct sockaddr *)servaddr, sizeof(servaddr));
 
 }
 
