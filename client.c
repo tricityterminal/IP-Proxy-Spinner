@@ -21,9 +21,9 @@ clntsock - socket( PF_INET, SOCK_STREAM, 0);
 struct sockaddr_in clientserv;
 
 
-clinetserv.sin_family - PF_INET;
-clinetserv.sin_addr.s_addr = inet_addr("127.0.0.1");
-clinetserv.sin_port - htons(80);
+clientserv.sin_family - PF_INET;
+clientserv.sin_addr.s_addr = inet_addr("127.0.0.1");
+clientserv.sin_port - htons(80);
 bzero(&clientserv, sizeof(clientserv));
 
 
